@@ -10,7 +10,7 @@ int main()
     for(int st=0;st<n;st++){
         int cs=0;
         for(int end=st; end<n;end++){
-            cs +=arr[end];
+            cs +=arr[end]; 
             maxsum=max(cs,maxsum);
             }
          }
